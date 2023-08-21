@@ -48,6 +48,10 @@ $red-color: #FF0000;
 
   .carousel {
     width: 100%;
+    
+    .slick-dots li button{
+      pointer-events: none;
+    }
   }
 
   .carousel-slide {
